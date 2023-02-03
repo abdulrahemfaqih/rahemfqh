@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100vh;
+  background-image: url("assets/bng1.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.profile {
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+
+.profile img {
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+}
+
+.profile p {
+  margin: 20px 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: rgba(0, 0, 0, 0.737);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.linktree {
+  height: 200px;
+}
+
+.linktree a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(60, 60, 61);
+  font-size: 20px;
+  background-image: radial-gradient(ellipse at center, rgba(128, 128, 128, 0.1), rgba(255, 255, 255, 0.123));
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 20px 50px;
+}
+
+.footer {
+  margin-top: 180px;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  color: rgb(222, 221, 221);
+}
